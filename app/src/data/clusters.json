@@ -1,0 +1,1208 @@
+[
+    {
+        "Topic": -1,
+        "Count": 684,
+        "Representation": [
+            "ads",
+            "code",
+            "whatapp",
+            "money",
+            "verified",
+            "aap",
+            "stuff",
+            "10",
+            "social media",
+            "social"
+        ],
+        "description": "Miscellaneous / no clear single theme",
+        "avg_score": 3.532163742690059
+    },
+    {
+        "Topic": 0,
+        "Count": 212,
+        "Representation": [
+            "hai",
+            "ho",
+            "mera",
+            "ke",
+            "ki",
+            "ka",
+            "aur",
+            "na",
+            "nhi",
+            "hi"
+        ],
+        "description": "Account access issues and app malfunctions",
+        "avg_score": 3.547169811320755
+    },
+    {
+        "Topic": 1,
+        "Count": 198,
+        "Representation": [
+            "express",
+            "share",
+            "ideas",
+            "messenger",
+            "abroad",
+            "share information",
+            "share ideas",
+            "messager",
+            "man",
+            "horrible"
+        ],
+        "description": "Sharing information and communication features on WhatsApp",
+        "avg_score": 4.484848484848484
+    },
+    {
+        "Topic": 2,
+        "Count": 178,
+        "Representation": [
+            "connecting",
+            "makes communication",
+            "compare",
+            "photos videos",
+            "help communicate",
+            "stay touch",
+            "talk",
+            "photos",
+            "make communication",
+            "uses"
+        ],
+        "description": "User experience and feature preferences in WhatsApp",
+        "avg_score": 4.438202247191011
+    },
+    {
+        "Topic": 3,
+        "Count": 159,
+        "Representation": [
+            "far",
+            "beautiful",
+            "honestly",
+            "breaking",
+            "appp",
+            "tq",
+            "nic",
+            "op",
+            "duper",
+            "honestly don"
+        ],
+        "description": "Positive feedback about app performance and features",
+        "avg_score": 4.729559748427673
+    },
+    {
+        "Topic": 4,
+        "Count": 154,
+        "Representation": [
+            "happens",
+            "format",
+            "experiencing",
+            "closes",
+            "got deleted",
+            "missed",
+            "auto",
+            "stopped",
+            "know wrong",
+            "crashed"
+        ],
+        "description": "Technical issues with calls and media features",
+        "avg_score": 3.077922077922078
+    },
+    {
+        "Topic": 5,
+        "Count": 151,
+        "Representation": [
+            "office",
+            "god",
+            "happiness",
+            "beautiful",
+            "night",
+            "sooo",
+            "veri",
+            "condition",
+            "verey",
+            "okey"
+        ],
+        "description": "Positive feedback and appreciation for the app",
+        "avg_score": 4.827814569536423
+    },
+    {
+        "Topic": 6,
+        "Count": 149,
+        "Representation": [
+            "mistake",
+            "banned",
+            "support team",
+            "dear support",
+            "review",
+            "follow",
+            "believe",
+            "unbanned",
+            "rules",
+            "request"
+        ],
+        "description": "Requests for account review and restoration after bans",
+        "avg_score": 2.697986577181208
+    },
+    {
+        "Topic": 7,
+        "Count": 116,
+        "Representation": [
+            "loves",
+            "yes",
+            "game",
+            "far",
+            "absolutely",
+            "bit",
+            "comfortable",
+            "decent",
+            "knees",
+            "mood"
+        ],
+        "description": "User experience and app performance feedback",
+        "avg_score": 4.689655172413793
+    },
+    {
+        "Topic": 8,
+        "Count": 114,
+        "Representation": [
+            "easy useful",
+            "easy fast",
+            "useful useful",
+            "efficiency",
+            "smooth",
+            "useful easy",
+            "useful",
+            "interesting",
+            "easy",
+            "reliable easy"
+        ],
+        "description": "Ease of use and speed of the app",
+        "avg_score": 4.473684210526316
+    },
+    {
+        "Topic": 9,
+        "Count": 99,
+        "Representation": [
+            "suspended",
+            "appeal",
+            "explanation",
+            "stop banding",
+            "followed",
+            "important documents",
+            "accounts",
+            "action",
+            "denied",
+            "repeat"
+        ],
+        "description": "Account bans and lack of support for recovery",
+        "avg_score": 2.939393939393939
+    },
+    {
+        "Topic": 10,
+        "Count": 97,
+        "Representation": [
+            "verry",
+            "reliable easy",
+            "helpful",
+            "summary",
+            "ti",
+            "advice",
+            "rich",
+            "simple easy",
+            "program",
+            "rest"
+        ],
+        "description": "Positive feedback about WhatsApp's usability and performance",
+        "avg_score": 4.649484536082475
+    },
+    {
+        "Topic": 11,
+        "Count": 74,
+        "Representation": [
+            "communication communication",
+            "tge",
+            "communications",
+            "chating",
+            "communicating",
+            "add features",
+            "promise",
+            "personal business",
+            "simple communicating",
+            "thousand"
+        ],
+        "description": "Positive feedback on communication features of WhatsApp",
+        "avg_score": 4.837837837837838
+    },
+    {
+        "Topic": 12,
+        "Count": 74,
+        "Representation": [
+            "stay connected",
+            "interface",
+            "encryption",
+            "file sharing",
+            "privacy features",
+            "notes",
+            "sharing",
+            "connected",
+            "end",
+            "essential"
+        ],
+        "description": "Reliability and features of WhatsApp messaging app",
+        "avg_score": 4.391891891891892
+    },
+    {
+        "Topic": 13,
+        "Count": 72,
+        "Representation": [
+            "crashing",
+            "beg",
+            "keeps saying",
+            "keeps crashing",
+            "code want",
+            "saying official",
+            "loading",
+            "closed",
+            "having issues",
+            "immediately"
+        ],
+        "description": "App crashes on startup and during use",
+        "avg_score": 2.5
+    },
+    {
+        "Topic": 14,
+        "Count": 68,
+        "Representation": [
+            "sound",
+            "audio",
+            "speaker",
+            "note",
+            "sound quality",
+            "replying",
+            "sends",
+            "listening",
+            "features coming",
+            "cut"
+        ],
+        "description": "Request for improved audio playback options",
+        "avg_score": 2.485294117647059
+    },
+    {
+        "Topic": 15,
+        "Count": 66,
+        "Representation": [
+            "music",
+            "song",
+            "quality",
+            "post",
+            "blurry",
+            "30",
+            "blur",
+            "upload",
+            "videos",
+            "photo"
+        ],
+        "description": "Issues with video quality and recent app updates",
+        "avg_score": 2.681818181818182
+    },
+    {
+        "Topic": 16,
+        "Count": 65,
+        "Representation": [
+            "acquired",
+            "agood",
+            "useful interesting",
+            "useful features",
+            "unlike",
+            "soooooo",
+            "hook",
+            "quiz",
+            "data saving",
+            "incredible features"
+        ],
+        "description": "App performance and optimization concerns",
+        "avg_score": 4.430769230769231
+    },
+    {
+        "Topic": 17,
+        "Count": 51,
+        "Representation": [
+            "makes easier",
+            "easier",
+            "makes easy",
+            "life easier",
+            "easier easy",
+            "helps communicate",
+            "communication makes",
+            "makes",
+            "communicate",
+            "easy communicate"
+        ],
+        "description": "Ease of communication with friends and family",
+        "avg_score": 4.647058823529412
+    },
+    {
+        "Topic": 18,
+        "Count": 44,
+        "Representation": [
+            "bio",
+            "remove duration",
+            "online",
+            "tick",
+            "ui",
+            "unknown",
+            "feels",
+            "add option",
+            "duration",
+            "remove"
+        ],
+        "description": "Suggestions for feature improvements and privacy enhancements",
+        "avg_score": 3.022727272727273
+    },
+    {
+        "Topic": 19,
+        "Count": 43,
+        "Representation": [
+            "lock",
+            "entire",
+            "pin",
+            "registered",
+            "bugging",
+            "noticed",
+            "lags",
+            "saved",
+            "freezes",
+            "previous"
+        ],
+        "description": "Issues with chat transfer and message delivery",
+        "avg_score": 2.558139534883721
+    },
+    {
+        "Topic": 20,
+        "Count": 39,
+        "Representation": [
+            "login",
+            "password",
+            "solve problem",
+            "says need",
+            "keeps logging",
+            "email",
+            "entering",
+            "showing longer",
+            "mistakenly",
+            "solve"
+        ],
+        "description": "Login issues with official WhatsApp accounts",
+        "avg_score": 3.256410256410256
+    },
+    {
+        "Topic": 21,
+        "Count": 37,
+        "Representation": [
+            "profile picture",
+            "profile",
+            "screenshot",
+            "developer",
+            "views",
+            "viewing",
+            "layout",
+            "statuses",
+            "viewed",
+            "settings"
+        ],
+        "description": "Privacy concerns and status visibility issues",
+        "avg_score": 3.378378378378379
+    },
+    {
+        "Topic": 22,
+        "Count": 34,
+        "Representation": [
+            "ai",
+            "key",
+            "languages",
+            "line",
+            "hidden",
+            "keyboard",
+            "function",
+            "enter",
+            "words",
+            "ai reliable"
+        ],
+        "description": "Issues with app functionality and user interface changes",
+        "avg_score": 3.0
+    },
+    {
+        "Topic": 23,
+        "Count": 32,
+        "Representation": [
+            "bot",
+            "banned reason",
+            "closing",
+            "process",
+            "reason",
+            "reach",
+            "close",
+            "junk",
+            "disabled reason",
+            "enhanced"
+        ],
+        "description": "Accounts restricted or banned with no clear reason",
+        "avg_score": 2.65625
+    },
+    {
+        "Topic": 24,
+        "Count": 30,
+        "Representation": [
+            "devices",
+            "af",
+            "logged automatically",
+            "linking",
+            "linked devices",
+            "devices linked",
+            "finished",
+            "know happening",
+            "pro",
+            "slove"
+        ],
+        "description": "Issues with device linking and data usage",
+        "avg_score": 2.6
+    },
+    {
+        "Topic": 25,
+        "Count": 30,
+        "Representation": [
+            "pretty communication",
+            "useful problems",
+            "talk far",
+            "screen automatically",
+            "exprience",
+            "talk alot",
+            "disturbance",
+            "drops",
+            "country communication",
+            "common"
+        ],
+        "description": "Reliable communication and messaging features",
+        "avg_score": 4.566666666666666
+    },
+    {
+        "Topic": 26,
+        "Count": 30,
+        "Representation": [
+            "tin",
+            "says tin",
+            "com",
+            "features simple",
+            "easy personal",
+            "personal professional",
+            "helpful features",
+            "highly recommend",
+            "useful useful",
+            "professional"
+        ],
+        "description": "Positive feedback on app functionality and usability",
+        "avg_score": 4.9
+    },
+    {
+        "Topic": 27,
+        "Count": 28,
+        "Representation": [
+            "latest",
+            "document",
+            "story",
+            "showing want",
+            "videos keeps",
+            "want old",
+            "old new",
+            "necessary",
+            "draws",
+            "downside"
+        ],
+        "description": "Issues with app stability and document handling",
+        "avg_score": 2.928571428571428
+    },
+    {
+        "Topic": 28,
+        "Count": 28,
+        "Representation": [
+            "feeling",
+            "experience",
+            "life",
+            "experience feels",
+            "likes",
+            "mom dad",
+            "think experience",
+            "smooth experience",
+            "feels",
+            "pleasure"
+        ],
+        "description": "Positive user experiences and emotional connections",
+        "avg_score": 4.5
+    },
+    {
+        "Topic": 29,
+        "Count": 28,
+        "Representation": [
+            "place",
+            "fun",
+            "enhances",
+            "discussion",
+            "talk alot",
+            "becouse",
+            "hub",
+            "favourite",
+            "interact",
+            "interaction"
+        ],
+        "description": "Positive experiences with communication and privacy features",
+        "avg_score": 4.892857142857143
+    },
+    {
+        "Topic": 30,
+        "Count": 27,
+        "Representation": [
+            "keeps going",
+            "struggling",
+            "s25",
+            "reported",
+            "checked internet",
+            "problem unable",
+            "fix asap",
+            "wp",
+            "encountered",
+            "restarted"
+        ],
+        "description": "Installation and download issues with WhatsApp",
+        "avg_score": 2.740740740740741
+    },
+    {
+        "Topic": 31,
+        "Count": 27,
+        "Representation": [
+            "hanging",
+            "slow",
+            "load",
+            "documents",
+            "pending",
+            "videos keeps",
+            "slowly",
+            "loading forever",
+            "loads",
+            "avaible"
+        ],
+        "description": "App hanging or slow during downloads",
+        "avg_score": 1.851851851851852
+    },
+    {
+        "Topic": 32,
+        "Count": 27,
+        "Representation": [
+            "official",
+            "telling official",
+            "unofficial",
+            "need official",
+            "telling",
+            "official website",
+            "website",
+            "whattsap",
+            "longer access",
+            "uninstalling"
+        ],
+        "description": "Issues with official WhatsApp account verification",
+        "avg_score": 1.925925925925926
+    },
+    {
+        "Topic": 33,
+        "Count": 27,
+        "Representation": [
+            "log",
+            "consuming",
+            "logged",
+            "login",
+            "website",
+            "longer login",
+            "fed",
+            "problem login",
+            "getting lost",
+            "getting worse"
+        ],
+        "description": "Frequent account logouts causing user frustration",
+        "avg_score": 2.148148148148148
+    },
+    {
+        "Topic": 34,
+        "Count": 26,
+        "Representation": [
+            "arrow",
+            "shape",
+            "editing",
+            "look issue",
+            "circle",
+            "functioning",
+            "tools",
+            "avatar",
+            "marking",
+            "neo"
+        ],
+        "description": "Issues with shape tools not functioning properly",
+        "avg_score": 2.846153846153846
+    },
+    {
+        "Topic": 35,
+        "Count": 25,
+        "Representation": [
+            "world",
+            "ar",
+            "competition",
+            "popular",
+            "million",
+            "tap",
+            "reach",
+            "single",
+            "tha",
+            "real"
+        ],
+        "description": "Popularity and user preference for WhatsApp",
+        "avg_score": 4.84
+    },
+    {
+        "Topic": 36,
+        "Count": 25,
+        "Representation": [
+            "watsap",
+            "jald",
+            "watsapp",
+            "whstsapp",
+            "new business",
+            "problam",
+            "saver",
+            "main problem",
+            "se jald",
+            "problem let"
+        ],
+        "description": "Request for improvements to WhatsApp features",
+        "avg_score": 3.4
+    },
+    {
+        "Topic": 37,
+        "Count": 24,
+        "Representation": [
+            "responding",
+            "clearly",
+            "disappointing",
+            "freezes",
+            "cache",
+            "slow",
+            "issues",
+            "net",
+            "hangs",
+            "neo 10r"
+        ],
+        "description": "App performance issues after recent update",
+        "avg_score": 2.083333333333333
+    },
+    {
+        "Topic": 38,
+        "Count": 24,
+        "Representation": [
+            "speed",
+            "slow",
+            "internet connection",
+            "immediate",
+            "unlocked",
+            "videos right",
+            "program",
+            "newly added",
+            "hell",
+            "far long"
+        ],
+        "description": "Message sending and notification delays",
+        "avg_score": 2.708333333333333
+    },
+    {
+        "Topic": 39,
+        "Count": 23,
+        "Representation": [
+            "le",
+            "humanity",
+            "review did",
+            "face problem",
+            "jobs",
+            "interview",
+            "smooth experience",
+            "operate",
+            "flop",
+            "complains"
+        ],
+        "description": "User experience and functionality of the app",
+        "avg_score": 3.956521739130435
+    },
+    {
+        "Topic": 40,
+        "Count": 23,
+        "Representation": [
+            "emoji",
+            "emojis",
+            "keyboard",
+            "typing",
+            "disappear",
+            "lower",
+            "disappearing",
+            "disappears",
+            "putting",
+            "replying"
+        ],
+        "description": "Issues with emoji functionality in Status updates",
+        "avg_score": 2.217391304347826
+    },
+    {
+        "Topic": 41,
+        "Count": 22,
+        "Representation": [
+            "duration",
+            "section",
+            "limit",
+            "bio",
+            "displaying",
+            "custom",
+            "50",
+            "bring",
+            "changing",
+            "period"
+        ],
+        "description": "Suggestions for improving the About section duration",
+        "avg_score": 2.181818181818182
+    },
+    {
+        "Topic": 42,
+        "Count": 21,
+        "Representation": [
+            "pour",
+            "2025",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "description": "Issues with recent updates and app functionality",
+        "avg_score": 3.571428571428572
+    },
+    {
+        "Topic": 43,
+        "Count": 21,
+        "Representation": [
+            "disable",
+            "history option",
+            "tiresome",
+            "compulsory",
+            "bothering",
+            "week fix",
+            "disturbing",
+            "features coming",
+            "want add",
+            "don new"
+        ],
+        "description": "Concerns about unwanted updates and features",
+        "avg_score": 3.238095238095238
+    },
+    {
+        "Topic": 44,
+        "Count": 21,
+        "Representation": [
+            "hacking",
+            "page",
+            "improved",
+            "loging",
+            "makes hard",
+            "written",
+            "leaving",
+            "likes",
+            "review think",
+            "issues issues"
+        ],
+        "description": "Issues with search functionality and security concerns",
+        "avg_score": 2.428571428571428
+    },
+    {
+        "Topic": 45,
+        "Count": 21,
+        "Representation": [
+            "upload",
+            "hd",
+            "uploading",
+            "quality",
+            "guys need",
+            "blurred",
+            "gifs",
+            "low",
+            "hd quality",
+            "stories"
+        ],
+        "description": "Video call quality and media upload issues",
+        "avg_score": 2.714285714285714
+    },
+    {
+        "Topic": 46,
+        "Count": 21,
+        "Representation": [
+            "bless",
+            "god bless",
+            "development",
+            "somethings",
+            "advice",
+            "academic",
+            "products",
+            "scams",
+            "life saving",
+            "lie"
+        ],
+        "description": "Positive feedback and gratitude for the app",
+        "avg_score": 4.714285714285714
+    },
+    {
+        "Topic": 47,
+        "Count": 21,
+        "Representation": [
+            "permissions",
+            "software",
+            "problem don",
+            "holding",
+            "viral",
+            "loop",
+            "provide useful",
+            "ridiculous",
+            "big problem",
+            "ooh"
+        ],
+        "description": "Issues with data loss and permissions management",
+        "avg_score": 1.857142857142857
+    },
+    {
+        "Topic": 48,
+        "Count": 21,
+        "Representation": [
+            "map",
+            "exactly",
+            "new feature",
+            "add new",
+            "useful features",
+            "5star",
+            "change new",
+            "features add",
+            "star add",
+            "add features"
+        ],
+        "description": "Request for additional features and improvements",
+        "avg_score": 3.809523809523809
+    },
+    {
+        "Topic": 49,
+        "Count": 20,
+        "Representation": [
+            "teach",
+            "easy communicate",
+            "build",
+            "experience makes",
+            "somethings",
+            "advise",
+            "education",
+            "fr",
+            "fast communicate",
+            "suitable"
+        ],
+        "description": "Sharing knowledge and building community connections",
+        "avg_score": 4.75
+    },
+    {
+        "Topic": 50,
+        "Count": 20,
+        "Representation": [
+            "broadcast",
+            "school",
+            "restricts",
+            "notified",
+            "don don",
+            "separate",
+            "table",
+            "list make",
+            "tax",
+            "fix make"
+        ],
+        "description": "Issues with group functionality and restrictions",
+        "avg_score": 3.55
+    },
+    {
+        "Topic": 51,
+        "Count": 19,
+        "Representation": [
+            "whats",
+            "fir",
+            "fair",
+            "thankyou",
+            "whattsap",
+            "stays",
+            "special",
+            "whatapp",
+            "100",
+            "members"
+        ],
+        "description": "Positive feedback about WhatsApp's connectivity features",
+        "avg_score": 4.368421052631579
+    },
+    {
+        "Topic": 52,
+        "Count": 19,
+        "Representation": [
+            "april",
+            "lose",
+            "charts",
+            "showing new",
+            "fon",
+            "backups",
+            "hated",
+            "helped",
+            "expected",
+            "1st"
+        ],
+        "description": "Issues with backup restoration and management",
+        "avg_score": 1.947368421052632
+    },
+    {
+        "Topic": 53,
+        "Count": 19,
+        "Representation": [
+            "easy communication",
+            "affordable",
+            "standard",
+            "simple communication",
+            "friendly simple",
+            "truly",
+            "fastest",
+            "fast communicate",
+            "mode",
+            "tool communication"
+        ],
+        "description": "User experience and communication features evaluation",
+        "avg_score": 4.684210526315789
+    },
+    {
+        "Topic": 54,
+        "Count": 19,
+        "Representation": [
+            "far easy",
+            "helps connect",
+            "easy want",
+            "talk",
+            "touch talk",
+            "bc",
+            "son",
+            "parents",
+            "staying touch",
+            "mi"
+        ],
+        "description": "Connecting with family and friends across distances",
+        "avg_score": 4.736842105263158
+    },
+    {
+        "Topic": 55,
+        "Count": 18,
+        "Representation": [
+            "secondary",
+            "history",
+            "primary",
+            "logged",
+            "need help",
+            "local",
+            "media files",
+            "easy need",
+            "want data",
+            "disappeared"
+        ],
+        "description": "Issues with chat history recovery and data loss",
+        "avg_score": 3.555555555555555
+    },
+    {
+        "Topic": 56,
+        "Count": 18,
+        "Representation": [
+            "অন",
+            "allah",
+            "communication",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "description": "Mixed opinions on app quality and features",
+        "avg_score": 3.888888888888889
+    },
+    {
+        "Topic": 57,
+        "Count": 18,
+        "Representation": [
+            "pop",
+            "sound",
+            "mute",
+            "late",
+            "notified",
+            "posted",
+            "showing fix",
+            "chinese",
+            "changed setting",
+            "resets"
+        ],
+        "description": "Notification issues and settings not functioning properly",
+        "avg_score": 2.722222222222222
+    },
+    {
+        "Topic": 58,
+        "Count": 17,
+        "Representation": [
+            "private",
+            "encrypted",
+            "privacy",
+            "af",
+            "rest",
+            "poll",
+            "haha",
+            "ai make",
+            "features add",
+            "dating"
+        ],
+        "description": "Privacy and security concerns in WhatsApp",
+        "avg_score": 4.294117647058823
+    },
+    {
+        "Topic": 59,
+        "Count": 17,
+        "Representation": [
+            "cleared",
+            "access help",
+            "ask official",
+            "log tried",
+            "usa",
+            "ot",
+            "disabled",
+            "unlock",
+            "hook",
+            "gotten"
+        ],
+        "description": "Issues with phone number verification and access",
+        "avg_score": 1.941176470588235
+    },
+    {
+        "Topic": 60,
+        "Count": 16,
+        "Representation": [
+            "happiness",
+            "feel happy",
+            "joy",
+            "happy want",
+            "happy happy",
+            "happy",
+            "increase",
+            "thinking",
+            "glad",
+            "mind"
+        ],
+        "description": "User expressions of happiness and gratitude",
+        "avg_score": 4.6875
+    },
+    {
+        "Topic": 61,
+        "Count": 16,
+        "Representation": [
+            "filters",
+            "bubble",
+            "expressive",
+            "experience happy",
+            "stay permanent",
+            "request add",
+            "yeah",
+            "veri",
+            "eventually",
+            "similar"
+        ],
+        "description": "Request for additional design and aesthetic features",
+        "avg_score": 3.75
+    },
+    {
+        "Topic": 62,
+        "Count": 15,
+        "Representation": [
+            "secured",
+            "trusted",
+            "security",
+            "free data",
+            "features simple",
+            "favourite",
+            "accurate",
+            "reliable fast",
+            "usable",
+            "safety"
+        ],
+        "description": "Fast, reliable, and secure messaging app",
+        "avg_score": 4.533333333333333
+    },
+    {
+        "Topic": 63,
+        "Count": 15,
+        "Representation": [
+            "names",
+            "inside",
+            "deleting",
+            "directly",
+            "multiple",
+            "accessing",
+            "reflect",
+            "owners",
+            "list new",
+            "possibility"
+        ],
+        "description": "Issues with contact management and synchronization",
+        "avg_score": 2.666666666666667
+    },
+    {
+        "Topic": 64,
+        "Count": 15,
+        "Representation": [
+            "delay",
+            "wp",
+            "happy service",
+            "lack network",
+            "lack",
+            "stability",
+            "pure",
+            "connection",
+            "worse",
+            "network"
+        ],
+        "description": "Network connectivity and call quality issues",
+        "avg_score": 1.4
+    },
+    {
+        "Topic": 65,
+        "Count": 15,
+        "Representation": [
+            "que",
+            "la",
+            "en",
+            "los",
+            "por",
+            "pero",
+            "se",
+            "es",
+            "tiene",
+            "com"
+        ],
+        "description": "Issues with app features and functionality improvements",
+        "avg_score": 2.8
+    }
+]
