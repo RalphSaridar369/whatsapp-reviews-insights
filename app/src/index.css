@@ -1,20 +1,50 @@
 @import "tailwindcss";
 
 :root {
-  --background:#FFFFFF;
+  --background:#F3F4F6;
   --text:#14171C;
+  --gray: #8B92A0;
+  --card-background: #F9FAFB;
+  --card-background-border: #E2E8F0;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
+  --good:#3DBFA3;
+  --avg:#E8A33D;
+  --bad: #E85D4E;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold mb-4;
   }
+  h2 {
+    @apply text-2xl font-semibold mb-3;
+  }
+  /* h3 {
+    @apply text-xl font-medium mb-2;
+  } */
 }
 
 .dark {
   --background: #14171C;
-  --text:#FFFFFF;
+  --text:#F3F4F6;
+  --card-background:#1C2128;
+  --card-background-border:#2E3440;
+}
+
+.border {
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: var(--card-background-border)
 }
 
 @theme inline{
   --color-background: var(--background);
-  --color-text: var(--text)
+  --color-text: var(--text);
+  --color-gray: var(--gray);
+  --color-cd-background:var(--card-background);
+  --color-cd-background-border:var(--card-background-border);
+
+  --color-good:var(--good);
+  --color-avg:var(--avg);
+  --color-bad: var(--bad);
 }
