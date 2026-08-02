@@ -37,6 +37,11 @@
   border-color: var(--card-background-border)
 }
 
+.filter-border {
+  border-width: 1px;
+  border-radius: 4px;
+}
+
 @theme inline{
   --color-background: var(--background);
   --color-text: var(--text);
