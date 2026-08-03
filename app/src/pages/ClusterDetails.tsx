@@ -12,7 +12,7 @@ const scoreColor = (score: number) => {
 };
 
 const scoreDistribution = (
-  reviews: {review:string, score:number}[]
+  reviews: { review: string, score: number }[]
 ): { score: number; count: number }[] => {
   return [1, 2, 3, 4, 5].map((score) => ({
     score,
@@ -22,8 +22,15 @@ const scoreDistribution = (
 
 const ClusterDetails = () => {
   const { id } = useParams<{ id: string }>();
+
+
+
+  if (!id) {
+    return <div>Invalid cluster ID</div>;
+  }
+
   const cluster = clusters.find((c) => c.Topic === parseInt(id));
-  const reviews_ = reviews.find((item)=>item.topic === parseInt(id)).reviews
+  const reviews_ = reviews?.find((item) => item.topic === Number(id))?.reviews ?? [];
   const histogram = scoreDistribution(reviews_)
 
   return (
@@ -36,16 +43,16 @@ const ClusterDetails = () => {
       </Link>
       <header className="mt-6 mb-10">
         <span className="font-mono text-xs uppercase tracking-widest text-avg">
-          Topic {cluster.Topic}
+          Topic {cluster!.Topic}
         </span>
         <h1 className="font-display text-3xl mt-2 mb-4">
-          {cluster.Topic === -1
+          {cluster!.Topic === -1
             ? "Unclustered / no clear theme"
-            : cluster.description}
+            : cluster!.description}
         </h1>
 
         <div className="flex flex-wrap gap-2 mb-6">
-          {cluster.Representation.map((key) => (
+          {cluster!.Representation.map((key) => (
             <span
               key={key}
               className="font-mono text-xs px-2 py-1 border border-border rounded-sm text-muted"
@@ -58,12 +65,12 @@ const ClusterDetails = () => {
         <div className="flex gap-8 font-mono text-sm">
           <div className="flex flex-row gap-2">
             <span className="text-gray">Reviews</span>
-            <span className="text-text">{cluster.Count}</span>
+            <span className="text-text">{cluster!.Count}</span>
           </div>
           <div className="flex flex-row gap-2">
             <span className="text-gray">Avg. rating</span>
-            <span className={scoreColor(cluster.avg_score)}>
-              {cluster.avg_score.toFixed(2)}★
+            <span className={scoreColor(cluster!.avg_score)}>
+              {cluster!.avg_score.toFixed(2)}★
             </span>
           </div>
         </div>
