@@ -1,77 +1,99 @@
-# React + TypeScript + Vite
+# WhatsApp Reviews Insights Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application for exploring and analyzing clustered WhatsApp reviews. This dashboard provides an interactive interface to visualize review topics, sentiment patterns, and user feedback.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Overview Dashboard**: View key metrics including total reviews, topics found, average rating, and unclustered percentage
+- **Topic Clustering Visualization**: Browse 66 clustered topics with bar charts showing volume (length) and sentiment (color)
+- **Detailed Topic Analysis**: Drill down into individual topics to see:
+  - Topic description and representative keywords
+  - Review count and average rating
+  - Rating distribution histogram
+  - Individual reviews within the topic
+- **Sentiment-based Color Coding**: Visual indicators for good (green), average (yellow), and bad (red) ratings
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React 19** - UI library with React Compiler enabled for optimization
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
+- **TailwindCSS v4** - Utility-first CSS framework
+- **React Router** - Client-side routing
+- **Recharts** - Data visualization library
+- **React Icons** - Icon library
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Installation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd app
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Run the development server:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
+```
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be in the `dist/` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Project Structure
 
 ```
+app/
+├── src/
+│   ├── components/      # Reusable UI components
+│   │   ├── ClustersList.tsx
+│   │   ├── Header.tsx
+│   │   ├── HomeCard.tsx
+│   │   ├── Overlay.tsx
+│   │   ├── Reviews.tsx
+│   │   └── ScoreHistogram.tsx
+│   ├── pages/          # Page components
+│   │   ├── Home.tsx
+│   │   └── ClusterDetails.tsx
+│   ├── data/           # Static data files
+│   │   ├── clusters.json
+│   │   └── reviews.json
+│   ├── context/        # React context providers
+│   ├── App.tsx         # Main app component with routing
+│   └── main.tsx        # Entry point
+├── public/             # Static assets
+└── package.json
+```
+
+## Data
+
+The dashboard uses pre-processed data from the semantic review clustering pipeline:
+- `clusters.json` - Contains topic information, descriptions, and statistics
+- `reviews.json` - Contains individual reviews grouped by topic
+
+To update the data, run the clustering pipeline in the `semantic-review-clustering/` directory and copy the output files to `app/src/data/`.
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
