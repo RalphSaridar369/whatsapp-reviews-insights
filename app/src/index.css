@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background:#F3F4F6;
+  --background:#e5e7eb;
   --text:#14171C;
-  --gray: #8B92A0;
+  --gray: #7D8594;
   --card-background: #F9FAFB;
-  --card-background-border: #E2E8F0;
+  --card-background-border: #D1D5DB;
 
   --good:#3DBFA3;
   --avg:#E8A33D;
@@ -27,6 +27,7 @@
 .dark {
   --background: #14171C;
   --text:#F3F4F6;
+  --gray: #8B92A0;
   --card-background:#1C2128;
   --card-background-border:#2E3440;
 }

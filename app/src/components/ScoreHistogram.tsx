@@ -16,9 +16,9 @@ export function ScoreHistogram({ data }: { data: { score: number; count: number 
           />
           <YAxis stroke="#8B92A0" fontSize={12} tickLine={false} axisLine={false} />
           <Tooltip
-            cursor={{ fill: "#232833" }}
+            cursor={{ fill: "var(--card-background)" }}
             contentStyle={{
-              background: "#1C2128",
+              background: "var(--card-background)",
               border: "1px solid #2E3440",
               borderRadius: 4,
               fontSize: 12,
@@ -26,7 +26,7 @@ export function ScoreHistogram({ data }: { data: { score: number; count: number 
             }}
             labelFormatter={(v) => `${v} star`}
           />
-          <Bar dataKey="count" fill="#E8A33D" radius={[3, 3, 0, 0]} />
+          <Bar dataKey="count" fill="var(--avg)" radius={[3, 3, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>

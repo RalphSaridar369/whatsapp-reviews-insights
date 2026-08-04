@@ -55,7 +55,7 @@ const ClusterDetails = () => {
           {cluster!.Representation.map((key) => (
             <span
               key={key}
-              className="font-mono text-xs px-2 py-1 border border-border rounded-sm text-muted"
+              className="font-mono text-xs px-2 py-1 border rounded-sm text-muted"
             >
               {key}
             </span>
