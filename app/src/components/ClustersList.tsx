@@ -78,7 +78,7 @@ const ClustersList = ({ clusters }: { clusters: ClusterSummary[] }) => {
 
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <h2>Topic signal</h2>
         <div className="flex flex-row gap-2 items-center">
           <p>Sort by:</p>
